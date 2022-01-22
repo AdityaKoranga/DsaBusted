@@ -20,6 +20,7 @@ vector<vector<int>> permute(vector<int>& nums){
     vector<vector<int>> ans;
     int index=0;
     solve(nums,ans,index);
+    return ans;
     
 }
 int main(){
