@@ -60,6 +60,7 @@ int main(){
     // obj1();
     Dog obj;
     obj.speak();
+    cout<<endl;
     //function overriding
 return 0;
 }
